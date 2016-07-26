@@ -1,0 +1,34 @@
+.container{
+	width: 100%;
+}
+#map-canvas{
+	width: 100%;
+	height: 500px;
+}
+.col-sm-offset-right-3 {
+  margin-right: 25%;
+}
+.button_container{
+	margin-top: 20px;
+}
+.table_container, .country_table_container{
+	display: none;
+	margin-top: 20px;
+	overflow-y: scroll;
+	max-height: 300px;
+}
+.table_container h3, .country_table_container h3{
+	margin-top: 0px;
+}
+.info_container{
+	max-height: 300px;
+	overflow-y: auto;
+}
+.info_window{
+	width: 300px;
+	margin-bottom: 15px;
+}
+.info_window p{
+	margin: 0px;
+	width: 100%;
+}
